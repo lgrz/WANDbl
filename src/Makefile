@@ -1,6 +1,6 @@
 
 # CONFIG REQUIRED: SET THIS VARIABLE TO THE PATH OF THE INDRI SOURCE CODE
-INDRISRC=../external/indri-5.9
+INDRISRC=../external/indri
 # CONFIG REQUIRED: SET THIS TO THE SDSL INSTALL PATH
 SDSLPREFIX=../build/external/sdsl-lite/
 DIVSUF=../build/external/sdsl-lite/external/libdivsufsort-2.0.1/

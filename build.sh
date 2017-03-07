@@ -28,7 +28,8 @@ then
   exit -1
 fi
 echo "Configure and build Indri ..."
-cd ../external/indri-5.9
+cd ../external/indri
+mkdir -p obj contrib/{antlr,xpdf,lemur}/obj
 ./configure
 make -j 5
 if [ $? -ne 0 ];
