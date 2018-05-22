@@ -104,6 +104,7 @@ main (int argc, char** argv)
     document_id++;
     iter->nextEntry();
   }
+  delete iter;
 
   // write document names
   {
